@@ -1,0 +1,14 @@
+:local(.wrapper) {
+  width: 50%;
+  height: 80%;
+  background-color: #333;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+:local(.todos) {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+}

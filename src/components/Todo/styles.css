@@ -1,0 +1,13 @@
+:local(.wrapper) {
+  width: 100%;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  box-sizing: border-box;
+  user-select: none;
+  overflow-x: hidden;
+  word-break: break-all;
+}
+
+:local(.done) {
+  opacity: 0.2;
+}
